@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   grafana:
-  container_name: "rs_grafana"
+    container_name: "rs_grafana"
     build:
       context: ./grafana
     ports:
