@@ -2,10 +2,10 @@ FROM node:12.16.3-alpine3.11 as js-builder
 
 WORKDIR /usr/src/app/
 
-COPY package.json yarn.lock ./
+COPY package.json ./
 COPY packages packages
 
-RUN yarn install --pure-lockfile --no-progress
+RUN npm install --pure-lockfile --no-progress
 
 COPY Gruntfile.js tsconfig.json .eslintrc .editorconfig .browserslistrc .prettierrc.js ./
 COPY public public
