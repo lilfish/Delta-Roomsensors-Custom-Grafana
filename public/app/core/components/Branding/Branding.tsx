@@ -46,6 +46,7 @@ export class Branding {
       'Your single pane of glass',
       'Built better together',
       'Democratising data',
+      'Get fontyst',
     ];
     const count = slogans.length;
     return slogans[Math.floor(Math.random() * count)];
