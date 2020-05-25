@@ -8,7 +8,7 @@ export interface BrandComponentProps {
 }
 
 const LoginLogo: FC<BrandComponentProps> = ({ className }) => {
-  return <img className={className} src="public/img/fontys_icon.svg" alt="Grafana" />;
+  return <img className={className} src="public/img/fontys_icon.svg" alt="roomsensors" />;
 };
 
 const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
@@ -22,7 +22,7 @@ const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
 };
 
 const MenuLogo: FC<BrandComponentProps> = ({ className }) => {
-  return <img className={className} src="public/img/fontys_icon.svg" alt="Grafana" />;
+  return <img className={className} src="public/img/fontys_icon.svg" alt="roomsensors" />;
 };
 
 const LoginBoxBackground = () => {

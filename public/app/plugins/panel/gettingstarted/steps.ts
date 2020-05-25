@@ -17,10 +17,10 @@ const step2Key = `${keyPrefix}${step2TutorialTitle
 
 export const getSteps = (): SetupStep[] => [
   {
-    heading: 'Welcome to Grafana',
-    subheading: 'The steps below will guide you to quickly finish setting up your Grafana installation.',
+    heading: 'Welcome to Roomsensors',
+    subheading: 'The steps below will guide you to quickly finish setting up your Roomsensors installation.',
     title: 'Basic',
-    info: 'The steps below will guide you to quickly finish setting up your Grafana installation.',
+    info: 'The steps below will guide you to quickly finish setting up your Roomsensors installation.',
     done: false,
     cards: [
       {

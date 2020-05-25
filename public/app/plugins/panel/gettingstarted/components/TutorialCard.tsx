@@ -37,7 +37,7 @@ const handleTutorialClick = (event: MouseEvent<HTMLAnchorElement>, card: Tutoria
 };
 
 const getStyles = stylesFactory((theme: GrafanaTheme, complete: boolean) => {
-  const textColor = `${complete ? theme.palette.blue95 : '#FFB357'}`;
+  const textColor = `${complete ? theme.palette.blue95 : '#673366'}`;
   return {
     card: css`
       ${cardStyle(theme, complete)}

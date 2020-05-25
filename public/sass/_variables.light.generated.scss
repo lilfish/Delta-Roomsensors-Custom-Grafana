@@ -59,17 +59,17 @@ $blue: #33a2e5;
 $red: $red-base;
 $yellow: #ff851b;
 $orange: #ff7941;
-$purple: #9954bb;
+$purple: #673366;
 $variable: #33a2e5;
 
-$brand-primary: #ff7941;
+$brand-primary: #673366;
 $brand-success: #3eb15b;
-$brand-warning: #ff7941;
+$brand-warning: #673366;
 $brand-danger: #e02f44;
 
 $query-red: #e02f44;
 $query-green: #3eb15b;
-$query-purple: #9954bb;
+$query-purple: #673366;
 $query-orange: #ff7941;
 
 // Status colors
@@ -95,8 +95,8 @@ $text-blue: #33a2e5;
 $text-shadow-faint: none;
 
 // gradients
-$brand-gradient-horizontal: linear-gradient(to right, #f05a28 30%, #fbca0a 99%);
-$brand-gradient-vertical: linear-gradient(#f05a28 30%, #fbca0a 99%);
+$brand-gradient-horizontal: linear-gradient(to right, #673366 30%, #ffffff 99%);
+$brand-gradient-vertical: linear-gradient(#673366 30%, #ffffff 99%);
 
 // Links
 // -------------------------
@@ -190,7 +190,7 @@ $btn-drag-image: '../img/grab_light.svg';
 
 $navbar-btn-gicon-brightness: brightness(1.5);
 
-$btn-active-box-shadow: 0px 0px 4px rgba(234, 161, 51, 0.6);
+$btn-active-box-shadow: 0px 0px 4px rgba(102, 1, 89, 0.5);
 
 // Forms
 // -------------------------
@@ -356,7 +356,7 @@ $switch-slider-shadow: 0 0 3px $dark-2;
 // -------------------------
 $checkbox-bg: $gray-6;
 $checkbox-border: 1px solid $gray-3;
-$checkbox-checked-bg: linear-gradient(0deg, #ff9830, #e55400);
+$checkbox-checked-bg: linear-gradient(0deg, #c995c2, #673366);
 $checkbox-color: $gray-7;
 
 //Panel Edit
