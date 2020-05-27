@@ -16,7 +16,7 @@ $theme-name: dark;
 // New Colors
 // -------------------------
 $blue-light: #5794f2;
-$blue-base: #3274d9;
+$blue-base: #0076e0;
 $blue-shade: #1f60c4;
 $red-base: #e02f44;
 $red-shade: #c4162a;
@@ -61,12 +61,12 @@ $white: #ffffff;
 
 // Accent colors
 // -------------------------
-$blue: #33a2e5;
+$blue: #0076E0;
 $red: $red-base;
 $yellow: #ecbb13;
 $orange: #eb7b18;
 $purple: #673366;
-$variable: #33a2e5;
+$variable: #0076E0;
 
 $brand-primary: #673366;
 $brand-success: #299c46;
@@ -96,7 +96,7 @@ $text-color-semi-weak: #9fa7b3;
 $text-color-weak: #7b8087;
 $text-color-faint: #464c54;
 $text-color-emphasis: #f7f8fa;
-$text-blue: #33a2e5;
+$text-blue: #0076E0;
 
 $text-shadow-faint: 1px 1px 4px rgb(45, 45, 45);
 $textShadow: none;
@@ -110,7 +110,7 @@ $brand-gradient-vertical: linear-gradient(#673366 30%, #e5007d 99%);
 $link-color: #d8d9da;
 $link-color-disabled: #8e8e8e;
 $link-hover-color: #ffffff;
-$external-link-color: #33a2e5;
+$external-link-color: #0076E0;
 
 // Typography
 // -------------------------
@@ -356,7 +356,7 @@ $variable-option-bg: $dropdownLinkBackgroundHover;
 $switch-bg: $input-bg;
 $switch-slider-color: $dark-3;
 $switch-slider-off-bg: $gray-1;
-$switch-slider-on-bg: #5794f2;
+$switch-slider-on-bg: $purple;
 $switch-slider-shadow: 0 0 3px black;
 
 //Checkbox
