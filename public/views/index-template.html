@@ -46,11 +46,6 @@
   </head>
 
   <body class="theme-[[ .Theme ]] [[.AppNameBodyClass]]">
-    <p>
-      test
-      <br>
-      [[.AppTitle]]
-    </p>
     <style>
       .preloader {
         height: 100%;
@@ -232,6 +227,8 @@
         };
 
       // In case the js files fails to load the code below will show an info message.
+        document.title = 'Roomsensors';
+
         window.onload = function() {
           var preloader = document.getElementsByClassName("preloader");
           if (preloader.length) {
