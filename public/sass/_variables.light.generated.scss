@@ -16,7 +16,7 @@ $theme-name: light;
 // New Colors
 // -------------------------
 $blue-light: #5794f2;
-$blue-base: #3274d9;
+$blue-base: #0076E0;
 $blue-shade: #1f60c4;
 $red-base: #e02f44;
 $red-shade: #c4162a;
@@ -200,8 +200,8 @@ $input-bg-disabled: $gray-5;
 $input-color: #464c54;
 $input-border-color: #c7d0d9;
 $input-box-shadow: none;
-$input-border-focus: #5794f2;
-$input-box-shadow-focus: #5794f2;
+$input-border-focus: #0076E0;
+$input-box-shadow-focus: #0076E0;
 $input-color-placeholder: #9fa7b3;
 $input-label-bg: #f1f5f9;
 $input-color-select-arrow: #7b8087;
@@ -349,7 +349,7 @@ $variable-option-bg: $dropdownLinkBackgroundHover;
 $switch-bg: $white;
 $switch-slider-color: $gray-7;
 $switch-slider-off-bg: $gray-5;
-$switch-slider-on-bg: #1f60c4;
+$switch-slider-on-bg: #673366;
 $switch-slider-shadow: 0 0 3px $dark-2;
 
 //Checkbox
@@ -375,7 +375,7 @@ $panel-editor-viz-item-bg-hover: lighten($blue-base, 45%);
 $panel-options-group-border: none;
 $panel-options-group-header-bg: $gray-5;
 
-$panel-grid-placeholder-bg: lighten(#5794f2, 30%);
+$panel-grid-placeholder-bg: lighten(#0076E0, 30%);
 $panel-grid-placeholder-shadow: 0 0 4px #5794f2;
 
 // logs
